@@ -42,7 +42,7 @@ ArcGIS Pro (raster math, slope, hillshade, layout design (https://code.earthengi
 - `StudyArea.png`: study area map
 - `ElevationMap.png`: elevation maps for the six districts
 - `NightPostLST.png`: post-monsoon nighttime LST maps
-- `SindhROI.ppkx`, `panel_map.ppkx`, 'NIGHTPOSTLST.ppkg': ArcGIS Pro project packages (open in ArcGIS Pro only)
+- `StudyArea.ppkx`, `Elevation_map.ppkx`, 'NIGHTPOSTLST.ppkg': ArcGIS Pro project packages (open in ArcGIS Pro only)
 
 ## Limitations
 - [LST product resolution compared with district size]
