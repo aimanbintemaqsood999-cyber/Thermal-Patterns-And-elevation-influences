@@ -31,9 +31,39 @@ Six districts of Sindh Province, Pakistan: Larkana, Jacobabad, Dadu, Khairpur, S
 ![Nighttime LST maps](NightPostLST.png)
 
 ### Key findings
-- [Range of mean nighttime LST across the six districts, in °C, with the warmest and coolest district]
-- [How nighttime LST relates to elevation, for example whether lower areas are cooler or warmer, with one district as an example]
-- [Any link between terrain (slope or relief) and thermal patterns]
+## Key Findings
+
+### Nighttime Land Surface Temperature (Oct-Nov mean, 2022-2025)
+
+- **Khairpur** shows the clearest spatial pattern: cooler in the far west, with a hot band through the center and a hot east and southeast. The very high LST zone appears largest in 2024 and 2025.
+- **Sukkur** has a cooler northwest, a hot eastern and southeastern zone, and a very high LST strip along its western edge. The hot zone is most extensive in 2024.
+- **Dadu** shows the same pattern every year: a very high LST band along the western margin and moderate to low LST across the eastern plains.
+- **Jacobabad and Shaheed Benazirabad** appear cooler in 2023 and warmer in 2024, with scattered hot spots rather than one large zone.
+- **Larkana** is relatively stable across all four years, with scattered high and very high patches.
+- Overall, 2024-2025 look warmer than 2022-2023, though not uniformly across districts.
+
+### Terrain (DEM, Slope, Hillshade)
+
+- Most of the study area is flat, low-lying plain with very low slope.
+- **Dadu** is the exception, with a high and steep western margin (Kirthar side) and low plains to the east.
+- **Sukkur** has a narrow high strip along its western edge, and **Larkana** is highest in the north.
+
+### Link Between LST and Terrain
+
+- In **Dadu, Sukkur and Khairpur**, the highest and steepest terrain coincides with the hottest nighttime LST zones. This suggests that rocky, bare ridges retain heat after sunset.
+- In **Larkana**, the match is weak and patchy.
+- In the flat districts (**Jacobabad, Shaheed Benazirabad**), terrain does not explain the LST patterns. Land cover (crops, bare soil, water) is a more likely driver.
+
+### Limitations.
+- Class breaks should be identical across all years and districts for the LST maps to be comparable.
+- DEM classes appear stretched per district, which exaggerates relief in some panels.
+- Fine striping in slope and hillshade over the plains may reflect DEM noise or field patterns rather than real terrain.
+
+### Next Steps
+
+- Compute mean LST per district per year with Zonal Statistics.
+- Test the relationship between LST and elevation and slope (correlation or regression).
+- Overlay LULC classes to separate terrain effects from land cover effects.
 
 ## Tools
 ArcGIS Pro (DEM, slope, hillshade, zonal statistics and layout design ) (https://code.earthengine.google.com/2fe343076c6df368bf81ea1a3e0f31ca) Code for LST data
