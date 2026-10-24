@@ -16,8 +16,8 @@ Six districts of Sindh Province, Pakistan: Larkana, Jacobabad, Dadu, Khairpur, S
 - District boundaries:
 
 ## Method
-1. Prepared nighttime LST rasters for October and November of each year (2022-2025) [state how they were obtained and processed, e.g. GEE, unit conversion to °C].
-2. Used raster math in ArcGIS Pro to calculate monthly and seasonal mean composites.
+1. Prepared nighttime LST rasters for October and November of each year (2022-2025) [ Obtained LST data through code,
+2. Used raster math in ArcGIS Pro to calculate monthly and seasonal mean composites]
 3. Derived **slope** and **hillshade** surfaces from the DEM to describe terrain relief and roughness.
 4. Organized all rasters and district boundaries in a standard geodatabase.
 5. Built layout series showing elevation, slope, hillshade and nighttime LST for each of the six districts.
@@ -36,7 +36,7 @@ Six districts of Sindh Province, Pakistan: Larkana, Jacobabad, Dadu, Khairpur, S
 - [Any link between terrain (slope or relief) and thermal patterns]
 
 ## Tools
-ArcGIS Pro (raster math, slope, hillshade, layout design (https://code.earthengine.google.com/2fe343076c6df368bf81ea1a3e0f31ca) Code for LST data
+ArcGIS Pro (DEM, slope, hillshade, zonal statistics and layout design ) (https://code.earthengine.google.com/2fe343076c6df368bf81ea1a3e0f31ca) Code for LST data
 
 ## Files
 - `StudyArea.png`: study area map
@@ -45,5 +45,4 @@ ArcGIS Pro (raster math, slope, hillshade, layout design (https://code.earthengi
 - `StudyArea.ppkx`, `Elevation_map.ppkx`, 'NIGHTPOSTLST.ppkg': ArcGIS Pro project packages (open in ArcGIS Pro only)
 
 ## Limitations
-- [LST product resolution compared with district size]
 - Only October and November are covered, so results do not describe other seasons.
